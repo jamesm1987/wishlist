@@ -8,7 +8,7 @@ class Wishlist extends Model
 {
 	protected $table = 'wishlists';
 
-	protected $fillable = [];
+	protected $fillable = ['name'];
 
 
 	public function user()

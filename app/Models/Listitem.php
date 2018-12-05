@@ -8,7 +8,7 @@ class Listitem extends Model
 {
    protected $table = 'listitems';
 
-   protected $fillable = [];
+   protected $fillable = ['name','image', 'details', 'url',  'price'];
 
 	public function wishlist()
 	{
